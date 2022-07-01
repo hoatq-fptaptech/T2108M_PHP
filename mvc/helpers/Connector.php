@@ -40,4 +40,12 @@ class Connector
         return $this->_conn->prepare($sql);
     }
 
+    /**
+     * @param $sql
+     * @return bool|mysqli_result
+     */
+    public function query($sql){
+        return $this->_conn->query($sql);
+    }
+
 }
