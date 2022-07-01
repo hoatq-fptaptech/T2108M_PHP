@@ -8,6 +8,16 @@ switch ($routing){
         $ctr->getStudents();
         break;
     }
+    case "add_student":{
+        $ctr = new StudentController();
+        $ctr->addStudent();
+        break;
+    }
+    case "post_student":{
+        $ctr = new StudentController();
+        $ctr->postStudent();
+        break;
+    }
     default: {
         die("404 not found");
     }

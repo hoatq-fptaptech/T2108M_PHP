@@ -13,7 +13,7 @@
     <div class="row">
         <div class="col-8">
             <div class="mb-3">
-                <a href="#" class="btn btn-primary">Add Student</a>
+                <a href="?page=add_student" class="btn btn-primary">Add Student</a>
             </div>
             <table class="table table-bordered table-striped">
                 <thead>
